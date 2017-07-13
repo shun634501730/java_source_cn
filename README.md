@@ -2,8 +2,9 @@
 Java1.8.0_91源码学习
 
 ***
-第1个学习的类：java.lang.Void
-
+学习1：java.lang.Void类
 ***
-第2个学习的类：java.lang.Number
+学习2：java.lang.Number抽象类
+下面开始学习Number类的派生类。
 ***
+学习3：java.lang.Comparable接口和java.util.Comparator接口
