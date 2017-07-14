@@ -1,6 +1,7 @@
 第2个要学习的类就是java.lang.Number类，这个类是一个抽象类，作为所有数值类的基类。
 
 其父类或接口为：java.lang.Object类和java.io.Serializable接口
+
 其子类为：
 1. java.lang：Byte、Short、Integer、Long、Float、Double
 2. java.math：BigInteger、BigDecimal
