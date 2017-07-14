@@ -1,4 +1,11 @@
-第2个要学习的类就是java.lang.Number类，这个类是一个抽象类，作为所有数值类的基类。这些数值类有Double、Float、Long、Integer、Short和Byte。
+第2个要学习的类就是java.lang.Number类，这个类是一个抽象类，作为所有数值类的基类。
+
+其父类或接口为：java.lang.Object类和java.io.Serializable接口
+其子类为：
+1. java.lang：Byte、Short、Integer、Long、Float、Double
+2. java.math：BigInteger、BigDecimal
+3. java.util.concurrent.atomic：AtomicInteger、AtomicLong
+4. java.util.concurrent.atomic：Striped64、DoubleAccumulator、DoubleAdder、LongAccumulator、LongAdder
 
 这个抽象类中提供了转换为6个数值类型的方法，其中有4个是抽象方法，另外2个是普通方法。具体如下：
 ```java
